@@ -1,33 +1,36 @@
 
 h1 {
   margin-left: 100px;
-  font-size: 50px;
+  
+  letter-spacing: 10px;
+  
 }
-.h1 {
-  color: lightpink;
-  font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
+
+
 p {
   margin-left: 100px;
   font-size: 15px;
-color: #a89798;
+  color: #a89798;
+  font-weight: bold;
 }
 input {
+  padding-left: 200px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 18px;
   margin-left: 100px;
-  margin-top: 50px;
-  padding-right: 100px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  border-radius: 30px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 80px;
+}
+.FDSA {
+  border-radius: 20px;
+  outline: none;
 }
 body {
   background-image: url(file:///C:/Users/ALI%20RAZA/Desktop/github/base-apparel-coming-soon-challenge/images/bg-pattern-desktop.svg);
   font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-   
-  
+  font-family: "Josefin Sans", sans-serif;
 }
 .hero-image {
   margin-left: 730px;
@@ -35,25 +38,24 @@ body {
 }
 button {
   padding-left: 40px;
-  padding-right: 28px;
+  padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 18px;
-  border-radius: 50px;
+  border-radius: 5px;
   font-weight: bold;
   font-style: italic;
   color: white;
-  font-size: 20px;
-background-color:hsl(0, 73%, 54%) ;
-  margin-left: -70px;
- 
+  border-radius: 20px;
+  background-color: hsl(0, 73%, 54%);
+  margin-left: -97px;
+  box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.26);
 }
-.input {
-  margin-left: 0px;
+
+::placeholder {
+  color: lavender;
+  
 }
-::placeholder{
-    color: lavender;
-}
-.logo{
+.logo {
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 70px;
 }
